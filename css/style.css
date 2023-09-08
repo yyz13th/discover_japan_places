@@ -86,6 +86,13 @@ img {
     top: 0;
     left: 0;
     width: 100%;
+    transition: .2s linear;
+    padding-bottom: 20px;
+}
+
+.header_active{
+  background: #0E1D28;
+  z-index: 10;
 }
 
 .header__wrapper {
@@ -520,7 +527,6 @@ img {
     color: #FFF;
     font-size: 16px;
     font-weight: 400;
-
     padding: 19px 12px;
     background: #006effe7;
     text-decoration: none;
