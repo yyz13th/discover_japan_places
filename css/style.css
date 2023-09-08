@@ -395,6 +395,11 @@ img {
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 0 108px;
   align-items: center;
+  margin-bottom: 77px;
+}
+
+.tour__info {
+  padding-left: 47px;
 }
 
 .tour__title{
@@ -402,6 +407,7 @@ font-size: 30px;
 font-weight: 500;
 line-height: 40px;
 margin-bottom: 85px;
+width: 357px;
 }
 
 .tour__desc{
