@@ -1,29 +1,40 @@
 /* lato-regular - latin */
 @font-face {
-    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
     font-family: 'Lato';
     font-style: normal;
     font-weight: 400;
-    src: url('../fonts/lato-v23-latin-regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
-    url('../fonts/lato-v23-latin-regular.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    src: url('../fonts/lato-v23-latin-regular.woff2') format('woff2'),
+        /* Chrome 36+, Opera 23+, Firefox 39+ */
+        url('../fonts/lato-v23-latin-regular.woff') format('woff');
+    /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
+
 /* lato-700 - latin */
 @font-face {
-    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
     font-family: 'Lato';
     font-style: normal;
     font-weight: 700;
-    src: url('../fonts/lato-v23-latin-700.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
-    url('../fonts/lato-v23-latin-700.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    src: url('../fonts/lato-v23-latin-700.woff2') format('woff2'),
+        /* Chrome 36+, Opera 23+, Firefox 39+ */
+        url('../fonts/lato-v23-latin-700.woff') format('woff');
+    /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
+
 /* lato-900 - latin */
 @font-face {
-    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
     font-family: 'Lato';
     font-style: normal;
     font-weight: 900;
-    src: url('../fonts/lato-v23-latin-900.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
-    url('../fonts/lato-v23-latin-900.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    src: url('../fonts/lato-v23-latin-900.woff2') format('woff2'),
+        /* Chrome 36+, Opera 23+, Firefox 39+ */
+        url('../fonts/lato-v23-latin-900.woff') format('woff');
+    /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
 html {
@@ -90,9 +101,9 @@ img {
     padding-bottom: 20px;
 }
 
-.header_active{
-  background: #0E1D28;
-  z-index: 10;
+.header_active {
+    background: #0E1D28;
+    z-index: 10;
 }
 
 .header__wrapper {
@@ -306,6 +317,7 @@ img {
 .places__title {
     margin-right: 15px;
 }
+
 .places__view-all {
     padding-right: 59px;
     color: #006DFE;
@@ -357,6 +369,7 @@ img {
     left: 29px;
     z-index: 3;
 }
+
 .places__card_size_lg {
     grid-column: span 3;
 }
@@ -389,6 +402,7 @@ img {
     height: 100%;
     z-index: 4;
 }
+
 /* places end */
 
 /* tour start */
@@ -448,9 +462,9 @@ img {
 
 }
 
-.top-places__card{
-  display:flex;
-  flex-direction: column;
+.top-places__card {
+    display: flex;
+    flex-direction: column;
 }
 
 .top-places__cards {
@@ -492,7 +506,8 @@ img {
     color: #FFF;
     font-size: 16px;
     font-weight: 500;
-    line-height: 24px; /* 150% */
+    line-height: 24px;
+    /* 150% */
     padding-right: 20px;
     background: url('../img/svg/heart.svg') no-repeat right;
     /* margin-right: 14px; */
@@ -503,7 +518,8 @@ img {
     color: #FFF;
     font-size: 16px;
     font-weight: 500;
-    line-height: 24px; /* 150% */
+    line-height: 24px;
+    /* 150% */
     padding: 16px 20px 16px 16px;
     background: url('../img/svg/comment.svg') no-repeat right;
     margin-right: 20px;
@@ -514,7 +530,8 @@ img {
     color: #102746;
     font-size: 16px;
     font-weight: 400;
-    line-height: 24px; /* 150% */
+    line-height: 24px;
+    /* 150% */
     margin-top: 45px;
     margin-bottom: 45px;
 
@@ -536,8 +553,81 @@ img {
 .top-places__card-more:hover,
 .top-places__card-more:focus,
 .top-places__card-more:active {
-  background: #2985ff;
+    background: #2985ff;
 
 }
+
 /* top places end */
 
+
+/* videos block start */
+.videos {
+    width: 100%;
+}
+
+.videos__wraper {
+    max-width: 1440px;
+    margin: 0 auto;
+    position: relative;
+
+}
+
+.video__item {
+    padding-top: 56.25%;
+}
+
+.video__element {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* videos block end */
+
+/* footer block start */
+
+.footer {
+   background: #0E1D28;
+   padding: 119px 0;
+}
+
+.footer__item{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer__logo {
+    width: 50%;
+
+}
+
+.footer__nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.footer__menu-title{
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.footer__menu-link {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    text-decoration: none;
+}
+
+.footer__menu-link:hover,
+.footer__menu-link:focus,
+.footer__menu-link:active {
+    opacity: 0.75;
+}
+/* footer block end */
