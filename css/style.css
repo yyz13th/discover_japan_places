@@ -192,13 +192,13 @@ img {
     bottom: 0;
 }
 
-@media screen and(max-width: 960px) {
+@media screen and (max-width: 960px) {
     .header__logo {
         padding-left: 20px;
     }
 }
 
-@media screen and(max-width: 768px) {
+@media screen and (max-width: 768px) {
     .header__burger {
         display: block;
     }
@@ -273,7 +273,7 @@ img {
     }
 }
 
-@media screen and(max-width: 500px) {
+@media screen and (max-width: 500px) {
     .header__nav {
         padding: 75px 30px;
     }
@@ -376,13 +376,13 @@ img {
     background: #1b61ff;
 }
 
-@media screen and(max-width: 960px) {
+@media screen and (max-width: 960px) {
     .search-form__field {
         margin-bottom: 25px;
     }
 }
 
-@media screen and(max-width: 768px) {
+@media screen and (max-width: 768px) {
     .intro {
         padding-top: 150px;
     }
@@ -497,7 +497,7 @@ img {
     background: url('../img/svg/arrow.svg') no-repeat right center;
 }
 
-@media screen and(max-width: 960px) {
+@media screen and (max-width: 960px) {
     .benefits__cards {
         padding: 0 15px;
         grid-column-gap: 35px;
@@ -522,7 +522,7 @@ img {
     }
 }
 
-@media screen and(max-width: 768px) {
+@media screen and (max-width: 768px) {
     .benefits__card {
         -ms-grid-column-span: 3;
         grid-column: span 3;
@@ -666,7 +666,7 @@ img {
     z-index: 4;
 }
 
-@media screen and(max-width: 960px) {
+@media screen and (max-width: 960px) {
     .places__card_size_lg {
         -ms-grid-column-span: 6;
         grid-column: span 6;
@@ -681,7 +681,7 @@ img {
 
 }
 
-@media screen and(max-width: 768px) {
+@media screen and (max-width: 768px) {
     .places__view-all {
         padding-top: 20px;
         font-size: 19px;
@@ -742,7 +742,7 @@ img {
     opacity: 0.5;
 }
 
-@media screen and(max-width: 960px) {
+@media screen and (max-width: 960px) {
     .tours__tour {
         grid-column-gap: 35px;
     }
@@ -757,7 +757,7 @@ img {
     }
 }
 
-@media screen and(max-width: 768px) {
+@media screen and (max-width: 768px) {
     .tours {
         margin-bottom: 0;
     }
@@ -895,7 +895,7 @@ img {
     background: #2985ff;
 }
 
-@media screen and(max-width: 960px) {
+@media screen and (max-width: 960px) {
     .top-places__cards {
         grid-column-gap: 25px;
     }
@@ -911,7 +911,7 @@ img {
     }
 }
 
-@media screen and(max-width: 768px) {
+@media screen and (max-width: 768px) {
     .top-places__card {
         -ms-grid-column-span: 6;
         grid-column: span 6;
@@ -1011,7 +1011,7 @@ img {
     opacity: 0.75;
 }
 
-@media screen and(max-width: 960px) {
+@media screen and (max-width: 960px) {
     .footer {
         padding: 60px 0;
     }
@@ -1020,7 +1020,7 @@ img {
     }
 }
 
-@media screen and(max-width: 768px) {
+@media screen and (max-width: 768px) {
     .footer__logo {
         width: 100%;
         margin-bottom: 12px;
